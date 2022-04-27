@@ -1,0 +1,262 @@
+@font-face{
+  font-family:far-from-homecoming-regular;
+  src:url(../font/Far-From\ Homecoming.otf);
+}
+h2{
+  font-family: far-from-homecoming-regular ;
+  text-transform: uppercase;
+  font-size: 2vw !important;
+  color: #FFFFFF;
+}
+@font-face{
+  font-family:montserrat;
+  src:url(../font/Montserrat-VariableFont_wght.ttf);
+}
+h4{
+  font-family: montserrat ;
+  font-weight: bold !important;
+  font-size: 1.5vw !important;
+}
+
+#spiderman{
+  font-family: far-from-homecoming-regular ;
+  text-transform: uppercase;
+  font-size: 6.5vw;
+}
+.logoImg{
+  margin-right: 20px;
+}
+.marge{
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+}
+.margeBa{
+  margin-bottom: 10% !important;
+}
+.texteImage {
+  padding:8%;
+  text-align:justify;
+  color:#FFFFFF;
+  font-size: 14px;
+}
+.textPage{
+  margin-left: 2.4%;
+  margin-bottom: 2%;
+  text-align:justify;
+  color:#FFFFFF;
+  font-size: 14px;
+  line-height: 15px;
+}
+.allBacground {
+  background-color: #B11313;
+  text-align: center;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  /* flex-wrap: wrap; */
+   margin-right: 0% !important; 
+   margin-left: 0% !important; 
+}
+
+
+.page2 {
+  background-color: #114C92;
+} 
+.marge {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+p {
+  color:#FFFFFF;
+  font-size: 1vw;
+  text-align: justify;
+}
+
+.titre2	{
+	background-color: lightgray;
+	color: slateblue;
+}
+
+.logo {
+  margin-top: 15px;
+  text-align: center;
+}
+.home {
+  background-image: url("../Illustration/img1.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+  
+}
+.navb{
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+}
+li a {
+  float: left;
+  margin-left: 40px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 1.5vw;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.contenant {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.texte_centrer {
+  position: absolute;
+  top: 32%;
+  left: 12%; 
+}
+.texte_centrer_page4 {
+  position: absolute;
+  top: 15%;
+  left: 12%; 
+}
+.btn{
+  font-size: 1vw !important;
+  padding: 13px !important;
+}
+.active{
+  background-color: #FFFFFF !important;
+  font-size: 1vw !important;
+  color: #B11313 !important;
+  font-weight: bold !important;
+  
+}
+.desactive {
+  font-size: 1vw !important;
+  color: #FFFFFF !important;
+  font-weight: bold !important;
+  border-color:#FFFFFF !important;
+}
+.rounded-pide {
+  border-radius: 1rem !important;
+  font-size: 1vw !important;
+  margin-right: 5%;
+}
+.bouttonMarge  {
+  margin-top: 20%;
+}
+.titreH4Marge{
+  margin-top: 8%;
+}
+.titreH2MargePage1{
+  margin-top: 32%;
+}
+.inputFormulaire{
+  margin-top: 1.5%;
+  width: 45%;
+  border-radius: 1rem;
+  font-size: ivw;
+}
+.inputFormulaire2{
+  margin-top: 2.5%;
+  margin-bottom: 1%;
+  width: 65%;
+  border-radius: 1rem;
+  font-size: ivw;
+  background: none;
+  border-color:#FFFFFF;
+}
+.envoyer{
+  width: 20%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.margeH2Page3{
+  margin-top: 9%;
+  margin-left: 0%;
+}
+.textePage3{
+  font-family: montserrat;
+  font-size: 0.9vw;
+  color: #FFFFFF;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.margeH2Page4{
+  margin-top: 30%;
+  margin-left: 20%;
+}
+.imgPage4{
+  margin-left: 33%;
+}
+.textePage4{
+  font-family: montserrat;
+  font-size: 0.9vw;
+  color: #FFFFFF;
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+.margeLabel{
+  font-family: montserrat;
+  font-size: 0.9vw;
+  color: #FFFFFF;
+  margin-top: -5%;
+  margin-left: 7%;
+}
+.check{
+  margin-top: 5%;
+}
+.bouttonMarge2{
+  margin-top: 15%;
+  margin-left: 15%;
+}
+
+.navbFoot{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+.navfoot{
+  font-size: 0.9vw;
+  margin-left: 0vw;
+  margin-top: 2.5vw;
+ }
+.logoImgFoot{
+  margin-top: 2.5vw;
+}
+.selectLang{
+  margin-top: 2.5vw;
+  border-radius: 1rem;
+  width: 15vw;
+  margin-top: 3vw;
+  background-color: #B11313;
+}
+.logoFoot{
+  margin-top: 2.5vw;
+  margin-right: 1.5vw;
+  margin-bottom:2vw; 
+  width: 2vw;
+  border:3px solid #B11313;
+  border-radius: 50%;
+  background-color: #B11313;
+}
+
+
+.footer{
+  background-color: #000000;
+  font-family: montserrat;
+  color: #FFFFFF;
+  font-size: 0.8vw;
+ }
+
+
+
+
+
+
+
