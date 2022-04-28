@@ -10,7 +10,7 @@
 <body>
     <main class="col col-xl-12  col-lg-12  col-md-12 col-sm-12 order-sm-2 col-xs-12 order-xs-1">
 <div class="allBacground">
-    <div class="row logo">
+    <div class="row logo" id="retirerDansMobile1">
         <div class="col-5 logo">
             <img src="Logo/logo1.png" class="img-fluid logoImg" alt="Responsive image">
             <img src="Logo/logo2.png" class="img-fluid logoImg" alt="Responsive image">
@@ -29,8 +29,9 @@
     <div class="contenant">
         <img src="Illustration/img1.png" class="img-fluid" alt="Responsive image">
         <div class="texte_centrer">
-
+            
             <div>
+
                 <h1 id="spiderman">SPIDERMAN</h1>
             </div>
             <div class="bouttonMarge">
@@ -65,6 +66,10 @@
                         reste à ce jour un des films les plus chers de l’histoire du cinéma.
                     </div>
                 </div>
+                <div id="afficher2">
+                    <button type="button" class="btn rounded-pide active" >voir Ses adversaires</button>
+                </div>
+                
 
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -78,6 +83,9 @@
                         Finalement, Marvel et Sony trouvent un accord pour introduire Spiderman dans l'Univers
                         cinématographique Marvel et abandonne ainsi The Amazing Spider-Man.
                     </div>
+                </div>
+                <div id="afficher">
+                    <button type="button" class="btn rounded-pide active">voir Ses adversaires</button>
                 </div>
 
             </div>
@@ -95,11 +103,14 @@
                         côté des Avengers.
                     </div>
                 </div>
+                <div id="afficher1">
+                    <button type="button" class="btn rounded-pide active">voir Ses adversaires</button>
+                </div>
 
             </div>
 
         </div>
-        <div class="row margeBa">
+        <div class="row margeBa" id="retirerDansMobile2">
             <div class="col-4">
                 <button type="button" class="btn rounded-pide active">voir Ses adversaires</button>
             </div>
@@ -114,15 +125,15 @@
     </div>
 
 
-    <div class="row page2">
+    <div class="row page2" id="retirerDansMobile">
         <div class="col-5">
-            <img src="Illustration/img5.png" class="img-fluid" alt="Responsive image">
+            <img src="Illustration/img5.png" class="img-fluid " alt="Responsive image">
         </div>
         <div class="col-7">
             <h2 class="margeH2Page3">
                 Deviens Spiderman !
             </h2>
-            <div class="textePage3">
+            <div class="textePage">
                 Rempli le formulaire ci-dessous afin de recevoir ton propre costume.
             </div>
             <div>
@@ -141,39 +152,72 @@
                 <input class="inputFormulaire" type="text" placeholder="   Adresse email">
             </div>
             <button type="button" class="btn rounded-pide desactive envoyer">Envoyer</button>
-
         </div>
     </div>
 
-    <div class="contenant">
-        <img src="Illustration/img6.png" class="img-fluid imgPage4" alt="Responsive image">
-        <div class="texte_centrer_page4">
+    <div class="contenant page2" id="afficherDansMobile">
+        <img src="Illustration/img5.png" class="img-fluid" alt="Responsive image">
+        <div class="texte_centrer">           
+            
+            <h2 class="margeH2Page3">
+                Deviens Spiderman !
+            </h2>
+            <div class="textePage">
+                Rempli le formulaire ci-dessous afin de recevoir ton propre costume.
+            </div>
+            <div>
+                <input class="inputFormulaire" type="text" placeholder="   Nom">
+            </div>
+            <div>
+                <input class="inputFormulaire" type="text" placeholder="   Prénom">
+            </div>
+            <div>
+                <input class="inputFormulaire" type="text" placeholder="   Taille(cm)">
+            </div>
+            <div>
+                <input class="inputFormulaire" type="text" placeholder="   Poids (kg)">
+            </div>
+            <div>
+                <input class="inputFormulaire" type="text" placeholder="   Adresse email">
+            </div>
+            <button type="button" class="btn rounded-pide desactive envoyer">Envoyer</button>
+        </div>
+    </div>
 
-            <div>
-                <h2>Inscrit toi à la newsletter !</h2>
-            </div>
-            <div class="textePage4">
-                L’univers de l’araignée justicière te passionne ? Reste au courant des dernières
-                <br> actualités grâce à notre newsletter !
-            </div>
-            <div>
-                <input class="inputFormulaire2" type="text" placeholder="   Nom Prénom">
-            </div>
-            <div>
-                <input class="inputFormulaire2" type="text" placeholder="   Adresse email">
-            </div>
-            <div>
-                <input class="check" type="checkbox" name="" id="">
-                <div class="margeLabel" for="">Je reconnais accepter la <samp style="text-decoration: underline;">politique
-                    de confidentialité</samp>
-                    <br> de Sayna X Marvel.
+    <div class="row">
+        <div class="col-5">
+            <div class="contenant">
+                <div class="texte_centrer_page4 ">
+        
+                    <div>
+                        <h2>Inscrit toi à la newsletter !</h2>
+                    </div>
+                    <div class="textpage4">
+                        L’univers de l’araignée justicière te passionne ? Reste au courant des dernières
+                     actualités grâce à notre newsletter !
+                    </div>
+                    <div>
+                        <input class="inputFormulaire2" type="text" placeholder="   Nom Prénom">
+                    </div>
+                    <div>
+                        <input class="inputFormulaire2" type="text" placeholder="   Adresse email">
+                    </div>
+                    <div>
+                        <input class="check" type="checkbox" name="" id="">
+                        <div class="margeLabel" for="">Je reconnais accepter la <samp style="text-decoration: underline;">politique
+                            de confidentialité</samp>
+                            <br> de Sayna X Marvel.
+                        </div>
+                    </div>
+                    <div class="bouttonMarge2">
+                        <button type="button" class="btn rounded-pide active"> S'inscrire à la newsletter</button>
+                    </div>
                 </div>
             </div>
-            <div class="bouttonMarge2">
-                <button type="button" class="btn rounded-pide active"> S'inscrire à la newsletter</button>
-            </div>
-
-
+        </div>
+        <div class="col-7">
+            <img src="Illustration/img6.png" class="img-fluid " alt="Responsive image">
+            
         </div>
     </div>
 

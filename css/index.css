@@ -44,7 +44,7 @@ h4{
   margin-bottom: 2%;
   text-align:justify;
   color:#FFFFFF;
-  font-size: 14px;
+  font-size: 1vw;
   line-height: 15px;
 }
 .allBacground {
@@ -124,6 +124,15 @@ li a {
   position: absolute;
   top: 15%;
   left: 12%; 
+  margin-top: 25%;
+  margin-left: 20%;
+  margin-right: -50%;
+}
+.textpage4{
+  margin-bottom: 15%;
+  margin-top: 5%;
+  font-family: montserrat;
+  font-size: 1vw;
 }
 .btn{
   font-size: 1vw !important;
@@ -171,6 +180,7 @@ li a {
   background: none;
   border-color:#FFFFFF;
 }
+
 .envoyer{
   width: 20%;
   margin-top: 5%;
@@ -180,27 +190,23 @@ li a {
   margin-top: 9%;
   margin-left: 0%;
 }
-.textePage3{
+.textePage{
   font-family: montserrat;
   font-size: 0.9vw;
   color: #FFFFFF;
   margin-top: 3%;
-  margin-bottom: 2%;
-}
+ }
+
 .margeH2Page4{
   margin-top: 30%;
   margin-left: 20%;
 }
 .imgPage4{
-  margin-left: 33%;
+  margin-left: 47%;
+  height: 60vw;
+  width: auto;
 }
-.textePage4{
-  font-family: montserrat;
-  font-size: 0.9vw;
-  color: #FFFFFF;
-  margin-top: 3%;
-  margin-bottom: 10%;
-}
+
 .margeLabel{
   font-family: montserrat;
   font-size: 0.9vw;
@@ -245,14 +251,90 @@ li a {
   border-radius: 50%;
   background-color: #B11313;
 }
-
-
 .footer{
   background-color: #000000;
   font-family: montserrat;
   color: #FFFFFF;
   font-size: 0.8vw;
  }
+ #afficher{
+  display: none;
+ }
+ #afficher1{
+   display: none;
+  }
+  #afficher2{
+    display: none;
+   }
+ #afficherDansMobile{
+  display: none;
+ }
+
+ /* css mobile  */
+
+ @media (max-width:768px){
+   #afficherDansMobile{
+    display: block;
+   }
+   #retirerDansMobile{
+    display: none;
+   }
+   #retirerDansMobile1{
+       display: none;
+      }
+   #retirerDansMobile2{
+          display: none;
+    }
+   #afficher{
+    display: block;
+    align-content: center;
+    margin-bottom: 5vw;
+   }
+   #afficher1{
+       display: block;
+       align-content: center;
+       margin-bottom: 5vw;
+      }
+      #afficher2{
+          display: block;
+          align-content: center;
+          margin-bottom: 5vw;
+         }
+   .logoMobile{
+    margin-top: -30%;
+    width: auto;
+    height: 0.3vw;
+   }
+   .margeH2Page3{
+    margin-top: 3%;
+    margin-left: 0%;
+  }
+  .inputFormulaire{
+    margin-top: 5%;
+    width:65vw;
+    border-radius: 1rem;
+    font-size: ivw;
+  }
+  .margeH2Page3{
+    text-align: center;
+    margin-top: -20%;
+    font-size: 4vw !important;
+  }
+  .textePage{
+    font-family: montserrat;
+    font-size: 2vw;
+    color: #FFFFFF;
+    margin-top: 3%;
+   }
+   .envoyer{
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 20vw;
+    font-size: 2vw !important;
+  }
+  
+ }
+ 
 
 
 
